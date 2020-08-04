@@ -1,10 +1,10 @@
 package com.inspiresoftware.bmi;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class Result extends AppCompatActivity {
+public class ResultActivity extends AppCompatActivity {
 
     TextView bmi_result , bmi_comment;
 
@@ -21,8 +21,8 @@ public class Result extends AppCompatActivity {
         String receivedHeight = getIntent().getExtras().getString("height");
 
 
-        double weight_ft = Float.valueOf(receivedWeight) ;
-        double height_ft = Float.valueOf(receivedHeight);
+        double weight_ft = Double.valueOf(receivedWeight) ;
+        double height_ft = Double.valueOf(receivedHeight);
 
 
         double result = (weight_ft) / Math.pow(height_ft,2);

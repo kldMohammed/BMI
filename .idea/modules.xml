@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BMI.iml" filepath="$PROJECT_DIR$/BMI.iml" group="BMI" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BMI-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BMI-app.iml" group="BMI/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StudioProjects-BMI.iml" filepath="$PROJECT_DIR$/.idea/modules/StudioProjects-BMI.iml" group="BMI" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="BMI/app" />
     </modules>
   </component>

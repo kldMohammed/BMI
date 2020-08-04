@@ -1,9 +1,8 @@
 package com.inspiresoftware.bmi;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Pair;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -44,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
         if ( !weight_st.equals("")  && !height_st.equals("") ) {
 
-            Intent i = new Intent(MainActivity.this , Result.class) ;
+            Intent i = new Intent(MainActivity.this , ResultActivity.class) ;
             i.putExtra("weight",weight_st);
             i.putExtra("height", height_st);
 
